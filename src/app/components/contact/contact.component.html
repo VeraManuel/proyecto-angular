@@ -1,0 +1,27 @@
+<div class="container">
+    <h2>{{ title }}</h2>
+
+    <div #texto>
+        <p Resaltado>Envianos tu consulta y te ayudaremos lo antes posible.</p>
+    </div>
+
+    <form #contactForm='ngForm'>
+        <p>
+            <label for="name">Nombre</label>
+            <input type="text" name="name" required />
+        </p>
+        <p>
+            <label for="email">Correo</label>
+            <input type="email" name="email" required />
+        </p>
+        <p>
+            <label for="descripcion">Escribenos tu consulta</label>
+            <textarea class="contact" name="descripcion" required></textarea>
+        </p>
+
+        <input type="submit" value="Enviar" />
+
+    </form> 
+
+
+</div>
