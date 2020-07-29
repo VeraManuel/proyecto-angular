@@ -35,6 +35,7 @@ export class DetailComponent implements OnInit {
     })
   }
 
+    //obtener proyecto
   getProject(id){
     this._projectService.getProject(id).subscribe(
       response => {
